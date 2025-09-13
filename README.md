@@ -38,24 +38,7 @@ cd k-music-bot
 npm install
 ```
 
-### 2. Bot Configuration
-Edit the `config.json` file:
-```json
-{
-  "token": "YOUR_BOT_TOKEN_HERE",
-  "clientId": "YOUR_CLIENT_ID_HERE",
-  "prefixes": ["k!", "/"],
-  "colors": {
-    "primary": "#3498db",
-    "success": "#2ecc71",
-    "error": "#e74c3c",
-    "warning": "#f39c12",
-    "info": "#9b59b6"
-  }
-}
-```
-
-### 3. Discord Bot Settings
+### 2. Discord Bot Settings
 
 #### Bot Permissions (Required):
 - `Send Messages` - Send messages in channels
@@ -70,7 +53,7 @@ Enable these intents for your bot in Discord Developer Portal:
 - `GUILD MESSAGES`
 - `GUILD VOICE STATES`
 
-### 4. Starting the Bot
+### 3. Starting the Bot
 
 #### Windows:
 ```batch
@@ -178,7 +161,7 @@ grep "ERROR" logs/bot-$(date +%Y-%m-%d).log
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/Monsdea/K-Music/blob/main/LICENSE.md).
 
 ## 👥 Contact
 
